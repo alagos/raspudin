@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in raspudin.gemspec
-gemspec
+gem 'nokogiri'
+gem 'rest-client'
