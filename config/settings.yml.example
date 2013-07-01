@@ -1,0 +1,8 @@
+ip_url: 'http://ipecho.net/plain'
+scrap_url: 'http://www.google.cl'
+scrap_param: 'q'
+scrap_xpaths:
+  - '//html/body/'
+proxies:
+  - 'http://116.228.55.184:80'
+  - 'http://162.127.40.46:8080'
