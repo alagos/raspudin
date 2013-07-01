@@ -1,6 +1,7 @@
 ip_url: 'http://ipecho.net/plain'
 scrap_url: 'http://www.google.cl'
 scrap_param: 'q'
+scrap_param_max_value: 10
 scrap_xpaths:
   - '//html/body/'
 proxies:

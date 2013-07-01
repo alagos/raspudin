@@ -45,11 +45,7 @@ class ProxyManager
   def random_proxy
     temp_proxies = @proxies
     proxy = temp_proxies.delete_at(rand(temp_proxies.size))
-    p proxy
-    until proxy.alive?
-      proxy = temp_proxies.delete_at(rand(temp_proxies.size))
-      p proxy
-    end
+    proxy = temp_proxies.delete_at(rand(temp_proxies.size)) until proxy.nil? || proxy.alive?
     proxy
   end
 
